@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LanzoMA</title>
     <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "yyKXLqG2CXRCiQ0gC",
+            });
+        })();
+    </script>
 </head>
 
 <body>
@@ -211,12 +220,12 @@
         <section id="contact">
             <h2>Contact</h2>
 
-            <div id="messageForm">
-                <input class="input" type="text" placeholder="John Doe">
-                <input class="input" type="email" placeholder="johndoe@email.com">
-                <textarea class="input" placeholder="Enter your message"></textarea>
-                <button id="sendBtn">Send</button>
-            </div>
+            <form id="messageForm">
+                <input id="nameInput" class="input" type="text" placeholder="John Doe">
+                <input id="emailInput" class="input" type="email" placeholder="johndoe@email.com">
+                <textarea id="messageInput" class="input" placeholder="Enter your message"></textarea>
+                <button type="submit" id="sendBtn">Send</button>
+            </form>
         </section>
     </main>
 
@@ -234,6 +243,8 @@
         </svg>
         <a href="https://github.com/LanzoMA">Github</a>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
