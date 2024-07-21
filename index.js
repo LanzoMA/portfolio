@@ -29,6 +29,8 @@ document.getElementById("messageForm").addEventListener('submit', async function
         nameInput.value = '';
         emailInput.value = '';
         messageInput.value = '';
+
+        window.alert('Your message has been sent successfully')
     }
     catch (error) {
         window.alert('Sorry, your message could not be sent due to a server error');
