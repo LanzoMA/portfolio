@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Whirl Trivia",
+        "url": "https://whirl-trivia.netlify.app",
+        "image": "img/whirl-trivia.png",
+        "description": "A trivia game to test your knowledge in different domains."
+    },
+    {
+        "title": "LMC",
+        "url": "https://github.com/LanzoMA/lmc",
+        "image": "https://raw.githubusercontent.com/LanzoMA/lmc/master/assests/example-code.png",
+        "description": "An interpretor based on the Little Man Computer. The program parses Little Man Computer programs like the one that is shown and executes them in the command line."
+    }
+]
